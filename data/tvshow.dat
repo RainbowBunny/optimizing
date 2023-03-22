@@ -1,0 +1,11 @@
+data;
+param budget := 1000000;
+param availableWeek := 100;
+
+param TVCost := 20000;
+param TVFollower := 1800000;
+param TVWeekCost := 3;
+
+param magazineCost := 10000;
+param magazineFollower := 1000000;
+param magazineWeekCost := 1;

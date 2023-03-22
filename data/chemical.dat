@@ -1,0 +1,28 @@
+set CHEM := Carbon Copper Manganese;
+set RAWM := Iron1 Iron2 Iron3 Copper1 Copper2 Aluminum1 Aluminum2;
+
+param:          minPer      maxPer :=
+    Carbon      2           3
+    Copper      0.4         0.6
+    Manganese   1.2         1.65;
+
+param:          avail   cost :=
+    Iron1       4000    1.2
+    Iron2       3000    1.5
+    Iron3       6000    0.9
+    Copper1     5000    1.3
+    Copper2     2000    1.45
+    Aluminum1   3000    1.2
+    Aluminum2   2500    1;
+
+param component:
+            Carbon  Copper  Manganese := 
+Iron1       2.5     0       1.3
+Iron2       3       0       0.8
+Iron3       0       0.3     0
+Copper1     0       90      0
+Copper2     0       96      4
+Aluminum1   0       0.4     1.2
+Aluminum2   0       0.6     0;
+
+param totalWeight := 5000;

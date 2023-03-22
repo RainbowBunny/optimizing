@@ -1,0 +1,8 @@
+data;
+param bph := 200;
+param cph := 140;
+param bProfit := 25;
+param cProfit := 30;
+param bLimit := 6000;
+param cLimit := 4000;
+param timeLimit := 40;
